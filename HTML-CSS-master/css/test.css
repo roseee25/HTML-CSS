@@ -1,0 +1,30 @@
+.kirmizi{
+    color:red;
+    text-align: right;
+    background-color: aquamarine;
+}
+.kutu {
+    width: 70%; /*yüzde olarak tanımlanırsa relative denir*/
+    height: 500px;
+    background-color: blueviolet;
+    border:10 px skyblue;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px red;
+
+}
+container {
+    display: flex;
+    flex-direction: row; 
+    justify-content:flex-end ;
+    align-items: flex-end;
+    background-color: darkgreen;
+    height: 500px;
+
+}
+.container div{
+    width: 200px;
+    height: 200px;
+    background-color: coral;
+    padding: 20px;  /*padding yazının iç boşluklarını ayarlar*/
+    margin: 20px;   /* margin dış bosluk*/
+}
